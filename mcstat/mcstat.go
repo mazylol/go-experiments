@@ -103,4 +103,5 @@ func Mcstat() {
 	fmt.Printf("Version: %s\n", server.Version)
 	fmt.Printf("Software: %s\n", server.Software)
 	fmt.Printf("Players: %d of %d\n", server.Players.Online, server.Players.Max)
+	fmt.Printf("\nAPI Version: %d\n", server.Debug.Apiversion)
 }
